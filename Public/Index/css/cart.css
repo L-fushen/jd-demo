@@ -1,0 +1,83 @@
+#container{
+	width:1000px;
+	height:900px;
+	margin:auto;
+	margin-top:30px;
+	border:1px solid black;
+}
+.header{
+	width:1000px;
+	height:80px;
+	float:left;
+	margin-top:20px;
+	margin-bottom:10px;
+	border:1px solid black;
+}
+/*logo*/
+.logo{
+	width:400px;
+	height:80px;
+	float:left;
+}
+/*step*/
+.step{
+	width:500px;
+	height:80px;
+	float:right;
+	background:url(../images/step1.png) no-repeat 0 3px;
+}
+.step li{
+	width:160px;
+	height:23px;
+	float:left;
+	text-align:center;
+	margin-top:30px;
+}
+.step1{
+	color:#7abd54;
+}
+.step2,.step3{
+	color:#aaa;
+}
+/*购物车*/
+.cart{
+	width:1000px;
+	height:160px;
+	overflow:hidden;
+}
+.mycart{
+	width:1000px;
+	height:35px;
+	font-size:22px;
+	line-height:30px;
+	font-weight:700;
+}
+.show{
+	width:1000px;
+	height:100px;
+	background:#f3f3f3 url(../images/cart-bg.png) no-repeat 280px 20px;
+}
+.show ul{
+	width:630px;
+	height:100px;
+	float:right;
+	padding-top:22px;
+}
+.show ul li{
+	display:block;
+	width:640px;
+	height:26px;
+	line-height:26px;
+}
+.show ul li a{
+	color:#005ea7;
+}
+#login{
+	width:300px;
+	height:200px;
+	border:1px solid black;
+	position:absolute;
+	margin-left:340px;
+	display:none;
+	z-index:999;
+}

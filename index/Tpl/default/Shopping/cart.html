@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>我的购物车</title>
+<link rel="stylesheet" href="__PUBLIC__/Index/css/cart.css" type="text/css"/>
+<link rel="stylesheet" href="__PUBLIC__/Index/css/global.css" type="text/css" />
+<script type="text/javascript">
+function goToLogin(){
+	document.getElementById('login').style.display="block";
+}
+</script>
+</head>
+<body>
+<div id="container">
+	<!-- logo和step开始 -->
+	<div class="header clear">
+		<div class="logo">LOGO</div>
+		<ul class="step">
+			<li class="step1">1.我的购物车</li>
+			<li class="step2">2.填写核对订单信息</li>
+			<li class="step3">3.成功提交订单</li>
+		</ul>
+	</div>
+	<!-- logo和step结束 -->
+	<!-- 购物车开始 -->
+	<div class="cart clear">
+		<div class="mycart">我的购物车</div>
+		<if condition="0 eq 0">
+		<div id="login">	
+		</div>
+		<div class="show">
+			<ul>
+				<li>购物车内暂时没有商品，<a onclick="goToLogin();" id="login_1">登录</a>后，将显示您之前加入的商品</li>
+				<li>去<a>首页</a>挑选喜欢的商品</li>
+			</ul>
+		</div>
+		<else/>
+		<div class="">
+		
+		</div>
+		</if>
+	</div>
+	<!-- 购物车 结束-->
+</div>
+</body>
+</html>

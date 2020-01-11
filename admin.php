@@ -1,0 +1,12 @@
+<?php 
+header("content-type:text/html;charset=utf-8");
+//定义框架目录
+define("THINK_PATH","ThinkPHP/");
+//定义项目名称和路径
+define("APP_PATH","./admin");
+define("APP_NAME","app");
+//加载入口文件
+require(THINK_PATH."ThinkPHP.php");
+//实例化
+APP::run();
+?>

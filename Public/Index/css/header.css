@@ -1,0 +1,615 @@
+/* CSS Document */
+/*首页顶部开始*/
+.header{
+	width:100%;
+	background:#F7F7F7;
+	border-bottom:1px solid #ededed;
+}
+.hTop{
+	width:1210px;
+	height:30px;
+	margin:0 auto;
+}
+.hTop a:hover,.hMain a:hover{
+	text-decoration:underline;
+	color:red;	
+}
+.hTop-a{
+	display:block;
+	margin-top:6px;
+	float:left;
+	height:16px;
+	padding-left:15px;
+	background:url(../images/sc.png)no-repeat left center;
+}
+.hTop ul{
+	float:right;
+	line-height:30px;
+	color:#666;	
+}
+.hTop ul li{
+	float:left;
+	margin-left:15px;
+}
+.hTop ul li s{
+	height: 12px;
+	border-left: 1px solid #ddd;
+	overflow: hidden;
+	margin-left:10px;
+}
+.hTop ul .vip {
+    padding-left:30px;
+    position: relative;
+}
+.hTop ul li img{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+.hTop ul .phone{
+	height:30px;
+	padding-left:20px;
+	position: relative;
+}
+.hTop ul .phone i{
+	position: absolute;
+	z-index: 2;
+	left:0px;
+	top: 5px;
+	width: 13px;
+	height: 22px;
+	background:url(../images/top-ico.png)no-repeat -128px -360px;
+}
+/*首页顶部结束*/
+/*首页头部菜单开始*/
+.hMain{
+	width:100%;
+	height:80px;
+	margin-bottom:10px;
+	
+}
+.hMain .logo,.search{
+	float:left;	
+}
+.hMain .logo{
+	width:350px;
+	height:80px;
+}
+
+/*头部搜索*/
+.hMain .search{
+	width:500px;
+	height:60px;
+}
+.hMain .search .i-search {
+    position:relative;
+    width: 493px;
+    height: 32px;
+    margin-bottom: 3px;
+    border: 3px solid #E4393C;
+}
+.hMain .search .searchIn{
+	position:absolute;
+	z-index:20;
+	top:2px;
+	width:407px;
+	height:25px;
+	border:0px solid red;
+	text-indent:10px;
+	outline: none;
+	color:#666;
+	font: bold 14px/1.4 "microsoft yahei";
+}
+.hMain .search .searchIn:focus{
+	line-height:25px;
+}
+.hMain .search .sub{
+	position:absolute;
+	z-index:20;
+	right:0;
+	width: 80px;
+	height:34px;
+    background:#E4393C;
+    font-size: 14px;
+    font-weight:bold;
+    color: #FFF;
+	border:0;
+	outline: none;
+}
+.hMain .search ul li{
+	float:left;
+	color:#666;
+	margin-right:10px;
+}
+.hMain .search ul li a:hover{
+	color:red;
+}
+
+/*头部搜索结束*/
+
+
+/*我的惠民*/
+.myHm{
+	position:relative;
+	float:right;
+	width:260px;
+	height:60px;
+	text-align:center;
+}
+
+.myHms, .shoppingCart{
+	position:absolute;
+	z-index:20;
+	top:11px;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #EFEFEF;
+	padding-left:5px;
+}
+.myHms b, .shoppingCart b{
+	top:13px;
+	right: 8px;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-style: solid dashed dashed;
+	border-width: 5px;
+	border-color:#ccc transparent transparent;
+	overflow: hidden;
+}
+.newHms-b{
+	top:7px;
+	border-color:transparent transparent #ccc transparent;
+}
+.myHms:hover, .shoppingCart:hover, .search .sub:hover{
+	cursor:pointer;
+}
+.myHms{
+	background:url(../images/top-ico.png)no-repeat -116px -24px #F7F7F7;
+}
+.newHm{
+	border:1px solid #E3E3E3;
+	background:url(../images/top-ico.png)no-repeat -115px -53px #FFF;
+	border-bottom:1px solid transparent;
+}
+.myHms-i{
+	display:none;
+	position:absolute;
+	z-index:10;
+	top:42px;
+	right:153px;
+	width:300px;
+	background:#FFF;
+	border:1px solid #E3E3E3;
+}
+.myHms-i p{
+	text-align:left;
+	line-height:40px;
+	text-indent:10px;
+	height:40px;
+	width:100%;
+	border-bottom:1px solid #EFEFEF;
+	margin-bottom:10px;
+}
+
+.myHms-i a{
+	color:#005EA7;
+}
+.myHms-i ul{
+	width:140px;
+	float:left;
+	margin-left:10px;
+	border-right:1px solid #EFEFEF;	
+}
+.myHms-i ol{
+	float:left;
+	margin-left:10px;
+}
+.myHms-i ul a,.myHms-i ol a{
+	display:block;
+	text-align:left;
+	width:120px;
+	height:18px;
+	padding:5px;
+}
+.myHms-i a:hover{
+	background: #F5F5F5;
+	text-decoration:none;
+}
+.myHms-i .myBo{
+	height:100px;
+	width:100%;
+	background:#F3F3F3;	
+}
+.myBo .newly,.myBo .newly-a{
+	float:left;
+	width:130px;
+	height:25px;
+	line-height:25px;
+	text-align:left;
+	padding-left:10px;
+}
+.myBo .newly-a{
+	float:right;
+	text-align:right;
+	padding-right:5px;
+}
+.myBo .newImg{
+	width:300px;
+	height:60px;
+	overflow:hidden;
+}
+.myBo .newImg dl dt{
+	float:left;
+	margin:4px;
+	border:1px solid #ddd;
+}
+/*去购物车*/
+.shoppingCart{
+	position:absolute;
+	right:0;
+	z-index:30;
+	width:130px;
+	border:1px solid #EFEFEF;
+	background:url(../images/top-ico.png)no-repeat -115px -84px #F7F7F7;
+}
+.shoppingCart .shopping{
+	position: absolute;
+	top: -13px;
+	left: 20px;
+	background-image: url(../images/top-ico.png);
+	background-position: -133px -279px;
+	padding-left: 6px;
+	color: #fff;
+}
+
+.shoppingCart .shopping span {
+	float: left;
+	display: block;
+	height: 20px;
+	line-height:18px;
+	color:#fff;
+	padding-right: 6px;
+	background-image: url(../images/top-ico.png);
+	background-position: 100% -250px;
+}
+
+.shoppingCart b{
+	top: 10px;
+	right: 4px;
+	border-style: dashed dashed dashed solid;
+	border-color: transparent transparent transparent #CCC;/*改变箭头方向*/
+}
+
+.myHm .sCart-i{
+	display:none;
+	position:absolute;
+	z-index:20;
+	top:42px;
+	right:0;
+	width:350px;
+	background:#fff;
+	border:1px solid #E3E3E3;
+}
+.newsCart{
+	border:1px solid #E3E3E3;
+	background:url(../images/top-ico.png)no-repeat -115px -114px #FFF;
+	border-bottom:1px solid transparent;
+}
+.myHm .sCart-i .sCart-box{
+	width:260px;
+	background:#fff;
+	margin:10px auto;
+	color:#999;
+	height:50px;
+	line-height:50px;
+}
+.myHm .sCart-i .sCart-box b{
+	float:left;
+	width:56px;
+	height:49px;
+	background:url(../images/top-ico.png)no-repeat;
+}
+/*购物车列表*/
+
+.myHm .sCart-i .sCartListBox h4{
+	text-align:left;
+	text-indent:10px;
+	line-height:40px;
+}
+.sCartListBox .sList-top{
+	height:25px;
+	background:#bffab1;	
+}
+.sCartListBox .sList-top .f1{
+	width:200px;
+	height:16px;
+	margin:5px 0;
+	float:left;
+	line-height:16px;
+}
+
+.sCartListBox .sList-top .f2{
+	float:right;
+	line-height:25px;
+	padding-right:10px;
+}
+
+.sCartListBox .sList-top .f1 span{
+	margin-right: 5px;
+	color: #fff;
+	display: inline-block;
+	padding: 0 2px;
+	font: 12px/16px simsun;	
+	background:#3B0;
+}
+.sCartListBox .sList-bottom{
+	height:70px;
+}
+
+.sList-bottom .f3,.sList-bottom .f4,.sList-bottom .f5{
+	float:left;
+	margin:10px 0;
+	margin-left:10px;
+	height:50px;
+}
+
+.sList-bottom .f3{
+	width:50px;
+	border:1px solid #DDD;
+}
+.sList-bottom .f4{
+	width:150px;
+	text-align:left;
+	line-height:16px;
+	overflow:hidden;
+}
+
+.sList-bottom .f5{
+	width:110px;
+	text-align:right;
+	overflow:hidden;
+}
+.sList-bottom .f5 a{
+	color:blue;
+	display:block;
+	padding-top:5px;
+	font-size:14px;
+}
+
+.sCartListBox .closing{
+	height:70px;	
+	background:#F5F5F5;
+}
+
+.closing .closTop{
+	margin-right:10px;
+	width:170px;	
+	height:25px;
+	line-height:25px;
+	float:right;
+	background:#F5F5F5;
+}
+.closing .closTopLeft{
+	float:left;
+	margin-top:2px;
+}
+
+.closing .closTopRight{
+	float:right;
+}
+.closing .closTop span{
+	font-size: 15px;
+	color:red;
+}
+.closing .closTop strong{
+	font-size: 18px;
+	color:red;
+}
+.closing .closSub a{
+	display: inline-block;
+	float:right;
+	width: 120px;
+	height: 30px;
+	margin: 5px 10px;
+	background: #E4393C;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	line-height: 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+/*去购物车结束*/
+
+/*菜单导航条开始*/
+.hMenu{
+	width:100%;
+	height:40px;
+	margin-top:13px;
+	text-align:center;
+	background:#E13335;
+	background: -moz-linear-gradient(top,#E64346,#E13335);
+	background: -webkit-gradient(linear,0 0,0 100%,from(#E64346),to(#E13335));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E64346", endColorstr="#E13335");
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr="#E64346", endColorstr="#E13335")";
+}
+.hMenu .hMenu-left{
+	float:left;
+	width:210px;
+	height:40px;
+	background:#CD2A2C;
+	position:relative;
+	text-align:left;
+	text-indent:15px;
+	cursor:pointer;
+}
+.hMenu-left b{
+	width:20px;
+	height:20px;
+	background:url(../images/top-ico.png) -65px 0;
+	position:absolute;
+	z-index:45;
+	top:10px;
+	right:10px;
+}
+.hMenu .hMenu-left a,.hMenu dt a{
+	color:#fff;
+	font: bold 15px/1.4 "microsoft yahei";
+	line-height:40px;
+}
+.hMenu .hMenu-right,.hMenu dl{
+	margin-left:50px;	
+}
+.hMenu .hMenu-right,.hMenu dt{
+	float:left;
+}
+.hMenu dt a{
+	display:block;
+	width:90px;
+	height:40px;	
+}
+.hMenu dt a:hover{
+	background:#A40000;	
+}
+/*首页头部菜单结束*/
+
+/*商品类型*/
+.cateWares{
+	position:absolute;
+	z-index:13;
+	width:210px;
+	height:412px;
+	background:#fff;
+}
+
+.cateWares .gurgle,.cateWares .wine,
+.cateWares .drink,.cateWares .leisure,.cateWares .oily{
+	height:81px;
+	border-bottom:1px solid #e8e8e8;
+}
+.cateWares .oily{
+	border:none;	
+}
+
+.cateWares a:hover{
+	color:red;
+	text-decoration:underline;	
+}
+
+
+
+.gurgle .gl,.wine .wine-gl,
+.drink .drink-gl,.leisure .leisure-gl,.oily .oily-gl{
+	position:absolute;
+	z-index:30;
+	width:190px;
+	height:81px;
+	overflow:hidden;
+}
+.oily .oily-gl{
+	height:84px;
+	border:none;	
+}
+
+.gurgle .gur-i,.wine .wine-i,
+.drink .drink-i,.leisure .leisure-i,.oily .oily-i{
+	height:40px;
+	margin-top:20px;
+	margin-left:15px;
+}
+.oily .oily-i{
+	margin-left:10px;
+}
+
+.newBack{
+	background:#fff;
+}
+.newGurSd{
+	-webkit-box-shadow:0 20px 50px rgba(0,0,0,0.2);
+	box-shadow:0 20px 50px rgba(0,0,0,0.2);	
+}
+.newShadow{
+	-webkit-box-shadow:0 0 50px rgba(0,0,0,0.3);
+	box-shadow:0 0 50px rgba(0,0,0,0.3);
+}
+
+.gurgle .gl b,.wine .wine-gl b,
+.drink .drink-gl b,.leisure .leisure-gl b,.oily .oily-gl b{
+	display:block;
+	width:40px;
+	height:40px;
+	float:left;
+	-webkit-transition: all .25s ease;/*上下滚动时间/特效*/
+	-moz-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	transition: all .25s ease;/*上下滚动时间/特效*/
+	background:url(../images/index.menu.png)no-repeat 0 -50px;
+}
+
+.wine .wine-gl b{
+	background-position:-40px -50px;
+}
+
+.drink .drink-gl b{
+	background-position:-80px -50px;
+}
+
+.leisure .leisure-gl b{
+	background-position:-120px -50px;
+}
+
+.oily .oily-gl b{
+	background-position:-160px -50px;
+	margin-right:5px;
+}
+
+.cateWares  h1 a {
+	font-family: "microsoft yahei";
+	font-size: 16px;
+}
+.cateWares  ul li{
+	float:left;
+	line-height:18x;
+	margin-right:8px;
+	display:block;
+	overflow:hidden;
+}
+
+.cateWares .freshBox,.cateWares .wineBox,
+.cateWares .drinkBox,.cateWares .leisureBox,.cateWares .oilyBox{
+	position:absolute;
+	display:none;
+	z-index:10;
+	top:0;
+	left:210px;
+	width:410px;
+	height:412px;
+	background:#fff;
+	box-shadow:0 0 50px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 50px rgba(0,0,0,0.3);
+}
+.freshBox .fConter,.wineBox .wConter,
+.drinkBox .dConter,.leisureBox .lConter,.oilyBox .oConter{
+	width:370px;
+	height:390px;
+	margin:18px auto;	
+}
+.freshBox .fConter ul,.wineBox .wConter ul,
+.drinkBox .dConter ul,.leisureBox .lConter ul,.oilyBox .oConter ul{
+	height:70px;
+	overflow:hidden;
+}
+
+
+.freshBox .fConter ul a,.wineBox .wConter ul a,
+.drinkBox .dConter ul a,.leisureBox .lConter ul a,.oilyBox .oConter ul a{
+	display:block;
+	float:left;
+	border-right:1px solid #ccc;
+	margin:5px;
+	padding-right:8px;
+}

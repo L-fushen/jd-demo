@@ -1,0 +1,47 @@
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,b,a,em,font,img,dl,dt,dd,ol,ul,li,form,tabel{
+	margin:0;
+	padding:0;
+}
+ol,ul {
+	list-style:none
+}
+a img {
+	border:0
+}
+img {
+	vertical-align:middle
+}
+.clear:after {
+	height:0;
+	content:".";
+	overflow:hidden;
+	clear:both;
+	display:block;
+}
+.clear {
+	zoom:1;
+	clear:both
+}
+body {
+	font:12px/150% Arial,Verdana,"\5b8b\4f53";
+	color:#666;
+	background:#fff;
+}
+h1 {
+	font:20px "microsoft yahei","\5b8b\4f53"
+}
+h2,h3 {
+	font-size:14px
+}
+h4,h5,h6 {
+	font-size:12px
+}
+a {
+	color:#666;
+	text-decoration:none
+}
+a:hover {
+	color:#E4393C;
+	cursor:pointer;
+}
+

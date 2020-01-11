@@ -1,0 +1,58 @@
+/* CSS Document */
+.end{
+	width:100%;
+	background: #FFF;
+}
+.end .end-box{
+	width:1210px;
+	margin:0 auto;
+	
+}
+
+.end-box .box-top{
+	height:130px;
+	padding: 25px;
+	margin-bottom: 20px;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #F1F1F1;	
+	font-size:13px;
+}
+
+.end-box .box-top dl{
+	width:140px;
+	height:140px;
+	float:left;
+	margin-right:92px;
+	
+}
+
+.end-box .box-top dl dd{
+	width:95px;
+	height:100px;
+	float:right;
+}
+.end-box .box-top  dt b{
+	width:44px;
+	height:40px;
+	float:left;
+	background:url(../images/footer.png) no-repeat 0 -55px;
+}
+.end-box .box-top .fore2 dt b{
+	background:url(../images/footer.png)no-repeat -50px -55px;	
+}
+
+.end-box .box-top .fore3 dt b{
+	background:url(../images/footer.png)no-repeat 0 -100px;	
+}
+
+.end-box .box-top .fore4 dt b{
+	background:url(../images/footer.png)no-repeat -50px -102px;	
+}
+
+.end-box .box-top .fore5 dt b{
+	background:url(../images/footer.png)no-repeat 0 -149px;	
+}
+
+.end-box .box-top dt strong{
+	line-height:30px;
+}
